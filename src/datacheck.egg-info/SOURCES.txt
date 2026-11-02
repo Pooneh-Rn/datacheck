@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/datacheck/__init__.py
+src/datacheck/cli.py
+src/datacheck/exceptions.py
+src/datacheck/loader.py
+src/datacheck.egg-info/PKG-INFO
+src/datacheck.egg-info/SOURCES.txt
+src/datacheck.egg-info/dependency_links.txt
+src/datacheck.egg-info/entry_points.txt
+src/datacheck.egg-info/requires.txt
+src/datacheck.egg-info/top_level.txt
+tests/test_loader.py
