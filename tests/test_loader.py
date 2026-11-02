@@ -21,9 +21,7 @@ def test_load_valid_csv(loader, tmp_path):
     file_path = tmp_path / "customers.csv"
 
     file_path.write_text(
-        "name,age,salary\n"
-        "Alice,25,45000\n"
-        "Bob,30,60000\n",
+        "name,age,salary\nAlice,25,45000\nBob,30,60000\n",
         encoding="utf-8",
     )
 

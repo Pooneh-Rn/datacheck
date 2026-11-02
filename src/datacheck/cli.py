@@ -61,5 +61,10 @@ def analyze(
         typer.echo(f"  - {column}")
 
 
+@app.command()
+def version():
+    typer.echo(f"DataCheck v{__version__}")
+
+
 if __name__ == "__main__":
     app()
